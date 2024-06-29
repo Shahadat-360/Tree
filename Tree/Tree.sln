@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTraversal", "TreeTraversal\TreeTraversal.csproj", "{535972F8-5BFF-4B21-8354-E9F1B24E7B6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreOrderTraversal", "TreeTraversal\PreOrderTraversal.csproj", "{535972F8-5BFF-4B21-8354-E9F1B24E7B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOrderTraversal", "InOrderTraversal\InOrderTraversal.csproj", "{BB6E59C3-9C04-424C-B278-39C1EC76E043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostOrder", "PostOrder\PostOrder.csproj", "{3511E59C-994A-4402-8747-374F6EC7B158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{535972F8-5BFF-4B21-8354-E9F1B24E7B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535972F8-5BFF-4B21-8354-E9F1B24E7B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535972F8-5BFF-4B21-8354-E9F1B24E7B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6E59C3-9C04-424C-B278-39C1EC76E043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6E59C3-9C04-424C-B278-39C1EC76E043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6E59C3-9C04-424C-B278-39C1EC76E043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6E59C3-9C04-424C-B278-39C1EC76E043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3511E59C-994A-4402-8747-374F6EC7B158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3511E59C-994A-4402-8747-374F6EC7B158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3511E59C-994A-4402-8747-374F6EC7B158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3511E59C-994A-4402-8747-374F6EC7B158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
